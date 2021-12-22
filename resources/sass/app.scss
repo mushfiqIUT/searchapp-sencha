@@ -1,0 +1,259 @@
+$base-color: #524d3d !default;
+$active-color: #343434;
+$base-gradient: 'bevel';
+$font-family: "Cambria", "Serif" !default;
+$page-bg-color: #000;
+
+$tabs-dark: $base-color;
+$tabs-light: #555;
+ 
+$tabs-bottom-radius: .4em;
+$tabs-bottom-gradient: 'bevel';
+$tabs-bar-gradient: 'matte';
+$tabs-bottom-active-gradient: 'recessed';
+
+$list-bg-color: #e8e8e8;
+$list-color: #888;
+$list-pressed-color: #c6c6c6;
+ 
+$toolbar-gradient: 'bevel';
+
+//Color definitions
+$orange: #f6be2a;
+$grey: #e8e8e8;
+ 
+//import the sencha touch theme
+//@import 'sencha-touch/base';
+//@import 'sencha-touch/base/all';
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+/*@include icon-font('IcoMoon', inline-font-files(
+  'icomoon.woff', woff,
+  'icomoon.ttf', truetype,
+  'icomoon.svg', svg
+));*/
+/*@include icon-font('Pictos',
+inline-font-files('pictos/pictos-web.woff', woff, 'pictos/pictos-web.ttf', truetype,'pictos/pictos-web.svg', svg));*/
+
+@include icon-font('Icomoon',
+inline-font-files('icomoon/icomoon.woff', woff, 'pictos/icomoon.ttf', truetype,'pictos/icomoon.svg', svg));
+
+//Pictos Icons
+//@include icon('phone');
+
+//IcoMoon Icons
+@include icon("icon-home", "\e600", "IcoMoon");
+@include icon("icon-search", "\e67f", "IcoMoon");
+@include icon("icon-phone", "\e63c", "IcoMoon");
+@include icon("icon-map", "\e645", "IcoMoon");
+@include icon("icon-pencil2", "\e606", "IcoMoon");
+@include icon("icon-star3", "\e6d0", "IcoMoon");
+
+// Custom code goes here..
+.x-layout-card-item {
+	background: $grey;
+}
+
+.x-tabbar-dark.x-docked-bottom .x-tab-active .x-button-icon:before {
+	color : $orange;
+}
+
+//.x-container.x-panel.icon-jenenei {
+.x-toolbar-dark.x-toolbar.icon-toolbar .x-body {
+	background-image: url('../images/jenenei_logo.png');
+	background-size: 122px 42px;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+/*HORIZONTAL DATAVIEW*/
+
+.horizontal-dataview.x-dataview-inlineblock .x-dataview-item {
+    display: inline-block !important
+}
+
+.x-dataview-nowrap.horizontal-dataview .x-dataview-container {
+    white-space: nowrap !important
+}
+
+.x-dataview.horizontal-dataview {
+    background: #eee
+}
+
+.x-dataview.horizontal-dataview .x-dataview-item {
+    text-align: center
+}
+
+.x-dataview.horizontal-dataview .x-dataview-item:nth-child(even) {
+    background: #fff
+}
+
+/*HORIZONTAL DATAVIEW*/
+
+.empty-data-view {
+	padding: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+
+/*MINI TITLE BAR*/
+
+.x-toolbar-dark.x-toolbar.mini-titlebar {
+	min-height: 1.5em;
+}
+
+.x-toolbar-dark.x-toolbar.mini-titlebar .x-title {
+	line-height: 1em;
+	font-size: 1em;
+}
+
+/*MINI TITLE BAR*/
+
+/*ITEM SUMMARY*/
+
+.item-summary-container {
+	width: 150px;
+	padding: 5px;
+	font-size: 0.8em;
+	text-align: left;
+	.item-title {
+		color: #000;
+	}
+	.item-thumb {
+		width: 140px;
+	}
+	.item-location {
+		color: #999;
+	}
+	.item-rating {
+		color: #999;
+	}
+}
+
+/*ITEM SUMMARY*/
+
+/*List ITEM*/
+
+.list-item-img-container {
+	height: 150px;
+	width: 100%;
+	background-size: cover;
+    background-position: center;
+	.list-item-title {
+		padding: 10px;
+		min-width: 95%;
+		float: left;
+		opacity: 0.7;
+		background: #000;
+		max-width:80%;
+		font-size: 1.2em;
+		color: $orange;
+		text-shadow: rgba(0,0,0,0.5) 0 -0.08em 0;
+		margin-top: 2.5%;
+		font-weight: bold;
+		border-radius: 0 10px 10px 0;
+		.list-item-location {
+			font-size: 0.7em;
+			font-weight: normal;
+			color: #fff;
+			display: block;
+		}
+		.list-item-rating {
+			font-family: "IcoMoon";
+			font-weight: 100;
+			color: $orange;
+			.full:before {
+				content: "\e6d0";
+			}
+			.empty:before {
+				content: "\e6ce";
+			}
+			.half:before {
+				content: "\e6cf";
+			}
+		}
+	}
+}
+
+/*List ITEM*/
+
+/*ITEM DETAILS*/
+
+.item-details-img-container {
+	height: 200px;
+	width: 100%;
+	background-size: cover;
+    background-position: center;
+	.item-details-title {
+		padding: 10px;
+		min-width: 95%;
+		float: left;
+		opacity: 0.7;
+		background: #000;
+		max-width:80%;
+		font-size: 1.2em;
+		color: $orange;
+		text-shadow: rgba(0,0,0,0.5) 0 -0.08em 0;
+		margin-top: 2.5%;
+		font-weight: bold;
+		border-radius: 0 10px 10px 0;
+		.item-details-location {
+			font-size: 0.7em;
+			font-weight: normal;
+			color: #fff;
+			display: block;
+		}
+	}
+}
+
+.item-details-body-container {
+	padding: 10px;
+	font-size: 0.8em;
+	.item-details-location {
+		font-size: 1em;
+		font-weight: normal;
+		display: block;
+	}
+	.item-details-contact {
+		margin-top: 5px;
+		.contact-item {
+			width: auto;
+			float: left;
+			margin-right: 10px;
+			text-align: left;
+			.icon.phone:before {
+				content: "\e654";
+				font-family: "IcoMoon";
+				font-weight: 100;
+			}
+			.icon.web:before {
+				content: "\e6c1";
+				font-family: "IcoMoon";
+				font-weight: 100;
+			}
+			.icon.email:before {
+				content: "\e760";
+				font-family: "IcoMoon";
+				font-weight: 100;
+			}
+		}
+	}
+}
+
+.item-details-rating {
+	font-family: "IcoMoon";
+	font-weight: 100;
+	color: $orange;
+	.full:before {
+		content: "\e6d0";
+	}
+	.empty:before {
+		content: "\e6ce";
+	}
+	.half:before {
+		content: "\e6cf";
+	}
+}
+
+/*ITEM DETAILS*/

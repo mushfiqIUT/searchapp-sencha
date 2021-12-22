@@ -1,0 +1,115 @@
+{
+	"items":[
+		{
+			"id":"1",
+			"title":"Fancy Restaurant",
+			"category":"EDPK",
+			"location":"Dhanmondi, Dhaka",
+			"rating":"4",
+			"thumb":"ls (1).jpg",
+			"web":"http://www.jenenei.com",
+			"phone":"01191791539",
+			"email":"fhratul@live.com"
+		},
+		{
+			"id":"2",
+			"title":"Heavy Food",
+			"category":"EDPK",
+			"location":"Dhanmondi, Dhaka",
+			"rating":"3",
+			"thumb":"ls (2).jpg",
+			"web":"",
+			"phone":"01191791539",
+			"email":"fhratul@live.com"
+		},
+		{
+			"id":"3",
+			"title":"Delicious Food",
+			"category":"EDPK",
+			"location":"Dhanmondi, Dhaka",
+			"rating":"4",
+			"thumb":"ls (3).jpg",
+			"web":"",
+			"phone":"01191791539",
+			"email":""
+		},
+		{
+			"id":"4",
+			"title":"Kings Steak House",
+			"category":"EDPK",
+			"location":"Dhanmondi, Dhaka",
+			"rating":"5",
+			"thumb":"ls (4).jpg",
+			"web":"",
+			"phone":"01191791539",
+			"email":""
+		},
+		
+		{
+			"id":"5",
+			"title":"Prime Hotel",
+			"category":"NEW",
+			"location":"Dhanmondi, Dhaka",
+			"rating":"4",
+			"thumb":"ls (5).jpg",
+			"web":"",
+			"phone":"01191791539",
+			"email":""
+		},
+		{
+			"id":"6",
+			"title":"Live Kitchen House",
+			"category":"NEW",
+			"location":"Dhanmondi, Dhaka",
+			"rating":"5",
+			"thumb":"ls (6).jpg",
+			"web":"http://www.jenenei.com",
+			"phone":"",
+			"email":"fhratul@live.com"
+		},
+		{
+			"id":"7",
+			"title":"Skateboarding X",
+			"category":"NEW",
+			"location":"Banani, Dhaka",
+			"rating":"3",
+			"thumb":"ls (7).jpg",
+			"web":"http://www.jenenei.com",
+			"phone":"01191791539",
+			"email":""
+		},
+		{
+			"id":"8",
+			"title":"Coffee House",
+			"category":"NEW",
+			"location":"Gulshan, Dhaka",
+			"rating":"3.5",
+			"thumb":"ls (8).jpg",
+			"web":"",
+			"phone":"01191791539",
+			"email":"fhratul@live.com"
+		},
+		{
+			"id":"9",
+			"title":"XCafe Coffee Bar",
+			"category":"EDPK",
+			"location":"Banani, Dhaka",
+			"rating":"4.5",
+			"thumb":"ls (9).jpg",
+			"web":"http://www.jenenei.com",
+			"phone":"",
+			"email":"fhratul@live.com"
+		},
+		{
+			"id":"10",
+			"title":"Beauty Spa Centre",
+			"category":"EDPK",
+			"location":"Kalabagan, Dhaka",
+			"rating":"4",
+			"thumb":"ls (10).jpg",
+			"web":"",
+			"phone":"01191791539",
+			"email":""
+		}
+	]
+}
